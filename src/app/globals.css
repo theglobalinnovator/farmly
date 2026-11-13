@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, .font-display {
 }
 
 html {
-  scroll-behavior: smooth;n
+  scroll-behavior: smooth;
 }
 
 /* ─── CUSTOMIZED GREEN SCROLLBAR ENGINE ─── */
@@ -33,7 +33,7 @@ html {
   background: #10b981 !important; /* Brighter Green on Hover */
 }
 
-/* Firefox Support */
+/* Firefox Support - Fixed asterisk selector instead of dash */
 * {
   scrollbar-width: thin !important;
   scrollbar-color: #059669 #020b05 !important;
